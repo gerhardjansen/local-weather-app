@@ -20,4 +20,5 @@ export class CurrentWeatherComponent implements OnInit {
       })
   }
 
+
 }
