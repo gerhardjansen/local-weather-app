@@ -14,13 +14,16 @@ import { FlexLayoutModule } from '@angular/flex-layout';
 import { SideNavComponent } from './side-nav/side-nav.component';
 import { LayoutModule } from '@angular/cdk/layout';
 import { MatToolbarModule, MatButtonModule, MatSidenavModule, MatIconModule, MatListModule } from '@angular/material'
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { CitySearchComponent } from './city-search/city-search.component'
 
 
 @NgModule({
   declarations: [
     AppComponent,
     CurrentWeatherComponent,
-    SideNavComponent
+    SideNavComponent,
+    CitySearchComponent
   ],
   imports: [
     BrowserModule,
@@ -28,6 +31,8 @@ import { MatToolbarModule, MatButtonModule, MatSidenavModule, MatIconModule, Mat
     MaterialModule,
     BrowserAnimationsModule,
     FlexLayoutModule,
+    FormsModule,
+    ReactiveFormsModule,
     LayoutModule,
     MatToolbarModule,
     MatButtonModule,
